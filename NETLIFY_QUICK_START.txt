@@ -1,0 +1,85 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║           DEPLOY TO NETLIFY - QUICK START (5 MINUTES)                      ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+📋 WHAT YOU NEED
+  • GitHub account (free at github.com)
+  • Netlify account (free at netlify.com)
+  • Website source code (already prepared)
+
+🚀 STEP 1: PUSH TO GITHUB (2 minutes)
+
+  1. Go to https://github.com/new
+  2. Create new repository: "torrent-streamer-website"
+  3. Copy the commands shown and run:
+
+     git remote add origin https://github.com/YOUR-USERNAME/torrent-streamer-website.git
+     git branch -M main
+     git push -u origin main
+
+🌐 STEP 2: DEPLOY TO NETLIFY (2 minutes)
+
+  1. Go to https://app.netlify.com/signup
+  2. Click "Sign up with GitHub"
+  3. Authorize Netlify
+  4. Click "New site from Git"
+  5. Select GitHub → Find "torrent-streamer-website"
+  6. Click "Deploy site"
+  
+  ✓ Netlify automatically builds and deploys!
+
+✅ STEP 3: GET YOUR LIVE URL (1 minute)
+
+  After deployment completes, you'll have a URL like:
+  https://random-name-12345.netlify.app
+  
+  Share this URL with the world!
+
+🎯 OPTIONAL: ADD CUSTOM DOMAIN
+
+  1. Go to Site Settings → Domain management
+  2. Click "Add custom domain"
+  3. Enter your domain (e.g., torrent-streamer.com)
+  4. Update DNS records at your registrar
+  5. Wait 24 hours for DNS to propagate
+
+🔄 AUTOMATIC UPDATES
+
+  Every time you push to GitHub:
+  
+  git add .
+  git commit -m "Your changes"
+  git push origin main
+  
+  → Netlify automatically builds and deploys!
+
+📊 WHAT YOU GET (FREE)
+
+  ✓ Unlimited sites
+  ✓ Free HTTPS/SSL
+  ✓ Global CDN
+  ✓ 300 build minutes/month
+  ✓ 100 GB bandwidth/month
+  ✓ Automatic deployments
+  ✓ Preview deployments for pull requests
+
+🆘 TROUBLESHOOTING
+
+  Build fails?
+    → Check deploy log in Netlify dashboard
+    → Common: Node version, missing dependencies
+  
+  Site shows 404?
+    → netlify.toml has redirect rules (already included)
+  
+  DNS not working?
+    → Wait 24-48 hours for propagation
+    → Verify records at dns-checker.com
+
+📚 FULL GUIDE
+
+  See NETLIFY_DEPLOYMENT_GUIDE.md for detailed instructions
+
+═══════════════════════════════════════════════════════════════════════════════
+
+THAT'S IT! Your website is now permanently hosted on Netlify! 🎉
